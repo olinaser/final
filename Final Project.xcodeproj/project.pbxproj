@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		A72C48361FD3572B0012CEC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C48351FD3572B0012CEC3 /* AppDelegate.swift */; };
-		A72C48381FD3572B0012CEC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C48371FD3572B0012CEC3 /* ViewController.swift */; };
 		A72C483B1FD3572B0012CEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72C48391FD3572B0012CEC3 /* Main.storyboard */; };
 		A72C483D1FD3572B0012CEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72C483C1FD3572B0012CEC3 /* Assets.xcassets */; };
 		A72C48401FD3572B0012CEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72C483E1FD3572B0012CEC3 /* LaunchScreen.storyboard */; };
+		A72C48481FD3664A0012CEC3 /* backgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C48471FD3664A0012CEC3 /* backgroundColor.swift */; };
+		A72C484A1FD471D30012CEC3 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C48491FD471D30012CEC3 /* DiceViewController.swift */; };
+		A72C484C1FD48E750012CEC3 /* SlotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C484B1FD48E750012CEC3 /* SlotsViewController.swift */; };
+		A72C48521FD503A50012CEC3 /* BalanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C48511FD503A50012CEC3 /* BalanceVC.swift */; };
+		A72E7FF21FD5F0AA003329ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72E7FF11FD5F0AA003329ED /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A72C48321FD3572A0012CEC3 /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72C48351FD3572B0012CEC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A72C48371FD3572B0012CEC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A72C483A1FD3572B0012CEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A72C483C1FD3572B0012CEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A72C483F1FD3572B0012CEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A72C48411FD3572B0012CEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72C48471FD3664A0012CEC3 /* backgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundColor.swift; sourceTree = "<group>"; };
+		A72C48491FD471D30012CEC3 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
+		A72C484B1FD48E750012CEC3 /* SlotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotsViewController.swift; sourceTree = "<group>"; };
+		A72C48511FD503A50012CEC3 /* BalanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceVC.swift; sourceTree = "<group>"; };
+		A72E7FF11FD5F0AA003329ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				A72C48351FD3572B0012CEC3 /* AppDelegate.swift */,
-				A72C48371FD3572B0012CEC3 /* ViewController.swift */,
+				A72E7FF11FD5F0AA003329ED /* ViewController.swift */,
+				A72C48511FD503A50012CEC3 /* BalanceVC.swift */,
+				A72C48491FD471D30012CEC3 /* DiceViewController.swift */,
+				A72C484B1FD48E750012CEC3 /* SlotsViewController.swift */,
+				A72C48471FD3664A0012CEC3 /* backgroundColor.swift */,
 				A72C48391FD3572B0012CEC3 /* Main.storyboard */,
 				A72C483C1FD3572B0012CEC3 /* Assets.xcassets */,
 				A72C483E1FD3572B0012CEC3 /* LaunchScreen.storyboard */,
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A72C48381FD3572B0012CEC3 /* ViewController.swift in Sources */,
+				A72E7FF21FD5F0AA003329ED /* ViewController.swift in Sources */,
+				A72C484C1FD48E750012CEC3 /* SlotsViewController.swift in Sources */,
+				A72C48481FD3664A0012CEC3 /* backgroundColor.swift in Sources */,
 				A72C48361FD3572B0012CEC3 /* AppDelegate.swift in Sources */,
+				A72C484A1FD471D30012CEC3 /* DiceViewController.swift in Sources */,
+				A72C48521FD503A50012CEC3 /* BalanceVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
